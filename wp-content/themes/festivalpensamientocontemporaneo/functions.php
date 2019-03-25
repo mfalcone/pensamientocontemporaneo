@@ -14,3 +14,5 @@ function estilosyjs()  {
 add_action( 'wp_enqueue_scripts', 'estilosyjs' );
 
 
+add_theme_support( 'post-thumbnails' );
+add_image_size( 'autores', 400, 400, true );
