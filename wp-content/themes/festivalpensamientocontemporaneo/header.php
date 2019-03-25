@@ -19,7 +19,7 @@
 <body <?php body_class(); ?>>
 	
 <div class="container">
-	<div class="row border-bottom border-dark">
+	<div class="row border-bottom border-dark border-2">
 		<nav class="navbar navbar-expand-md navbar-light bg-faded">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>

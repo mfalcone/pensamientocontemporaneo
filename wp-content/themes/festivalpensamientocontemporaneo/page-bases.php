@@ -17,14 +17,14 @@ get_header(); ?>
 							<div class="col-md-6">
 							<?php the_content(); ?>
 							</div>
-							<div class="row">
-								<img src="<?php bloginfo('template_directory'); ?>/img/rana.png" alt="Festival Pensamiento contemporaneo" style="margin-left:auto">
-							</div>
+							
 				<?php endwhile;?>
 
 			<?php else :?>
 				404
 			<?php endif;?>
 		</div>
-
+<div class="row-fluid" style="overflow:hidden">
+	<img src="<?php bloginfo('template_directory'); ?>/img/rana.png" alt="Festival Pensamiento contemporaneo" class="float-right">
+</div>
 <?php get_footer(); ?>
