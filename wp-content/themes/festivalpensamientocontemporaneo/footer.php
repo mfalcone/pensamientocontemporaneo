@@ -8,10 +8,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2 offset-md-3">
-				<img src="<?php bloginfo('template_directory'); ?>/img/logostafe.png" alt="Gobierno de Santa Fe">
+				<a href="https://www.santafe.gov.ar/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/logostafe.png" alt="Gobierno de Santa Fe" class="gobierno"></a>
 			</div>
 			<div class="col-md-4">
-				<img src="<?php bloginfo('template_directory'); ?>/img/logocfi.png" alt="Consejo Federal de Inversiones">
+				<a href="http://cfi.org.ar" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/logocfi.png" alt="Consejo Federal de Inversiones" class="cfi"></a>
 			</div>
 		</div>
 	</div>
