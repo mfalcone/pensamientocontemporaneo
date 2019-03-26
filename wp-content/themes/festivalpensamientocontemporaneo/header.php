@@ -44,7 +44,7 @@
 	</div>
 	<div class="row mt-5 mb-5">
 		<div class="col-md-6">
-			<a href="#">
+			<a href="<?php echo get_home_url(); ?>">
 				<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="Festival Pensamiento contemporaneo">
 			</a>
 		</div>
