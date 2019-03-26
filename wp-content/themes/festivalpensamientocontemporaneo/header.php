@@ -24,7 +24,7 @@
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			 <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+			 <div class="navbar-collapse w-100 order-3 dual-collapse2">
 			<?php
 			wp_nav_menu([
 			'menu'            => 'top',

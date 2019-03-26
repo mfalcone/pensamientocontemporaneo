@@ -1,0 +1,14 @@
+
+.clipped-img{
+	max-width: unset;
+    max-height: 313px;
+}
+
+.img-wrap{
+	width: 256px;
+	position: relative;
+
+	.bordersvg{
+		position: absolute;top:1px;right: 1px
+	}
+}
