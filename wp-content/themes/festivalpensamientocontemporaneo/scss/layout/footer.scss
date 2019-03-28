@@ -1,5 +1,15 @@
 .site-footer{
 	background: #3d3950;
+	.row{
+		justify-content: space-between;
+    	align-items: center;
+	}
+	.main-logos{
+		justify-content: center;
+		margin-bottom: 80px;
+
+	}
+	
 }
 
 .copyright{
@@ -23,5 +33,9 @@
 	.gobierno{
 		max-width: 110px;
     	margin-bottom: 30px;
+	}
+
+	.site-footer .row{
+		flex-direction: column;
 	}
 }
