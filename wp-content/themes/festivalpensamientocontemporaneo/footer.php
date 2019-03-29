@@ -10,14 +10,14 @@
 			<div class="col-md-6">
 				<div class="text-center">
 					<a href="https://www.santafe.gov.ar/" target="_blank">
-						<img src="<?php bloginfo('template_directory'); ?>/img/logostafe.png" alt="Gobierno de Santa Fe" class="gobierno">
+						<img src="<?php bloginfo('template_directory'); ?>/img/logos_pie/logostafe.png" alt="Gobierno de Santa Fe" class="gobierno">
 					</a>
 			</div>
 			</div>
 			<div class="col-md-6">
 				<div class="text-center">
 					<a href="http://cfi.org.ar" target="_blank">
-						<img src="<?php bloginfo('template_directory'); ?>/img/logocfi.png" alt="Consejo Federal de Inversiones" class="cfi">
+						<img src="<?php bloginfo('template_directory'); ?>/img/logos_pie/logocfi.png" alt="Consejo Federal de Inversiones" class="cfi">
 					</a>
 				</div>
 			</div>
@@ -25,13 +25,25 @@
 		<div class="row">
 				
 				<a href="http://revistaanfibia.com" target="_blank">
-					<img src="<?php bloginfo('template_directory'); ?>/img/anfibialogo.png" alt="Anfibia" class="cfi">
+					<img src="<?php bloginfo('template_directory'); ?>/img/logos_pie/anfibialogo.png" alt="Anfibia" class="cfi">
 				</a>
 				<a href="http://www.unsam.edu.ar/" target="_blank">
-					<img src="<?php bloginfo('template_directory'); ?>/img/logousam.png" alt="UNSAM" class="cfi">
+					<img src="<?php bloginfo('template_directory'); ?>/img/logos_pie/usamlogo.png" alt="UNSAM" class="cfi">
 				</a>
 				<a href="http://cronoslab.org/" target="_blank">
-					<img src="<?php bloginfo('template_directory'); ?>/img/logocronos.png" alt="Cronos" class="cfi">
+					<img src="<?php bloginfo('template_directory'); ?>/img/logos_pie/cronoslogo.png" alt="Cronos" class="cfi">
+				</a>
+				<a href="http://ccpe.org.ar/" target="_blank">
+					<img src="<?php bloginfo('template_directory'); ?>/img/logos_pie/ccpelogo.png" alt="Centro Cultural Parque España" class="ccpe">
+				</a>
+				<a href="https://fcpolit.unr.edu.ar/" target="_blank">
+					<img src="<?php bloginfo('template_directory'); ?>/img/logos_pie/cienciaspoliticaslogo.png" alt="Facultad de Ciencias Políticas" class="fcp">
+				</a>
+				<a href="https://fhumyar.unr.edu.ar/" target="_blank">
+					<img src="<?php bloginfo('template_directory'); ?>/img/logos_pie/hyalogo.png" alt="Humanidades y Artes" class="hya">
+				</a>
+				<a href="https://www.unr.edu.ar/" target="_blank">
+					<img src="<?php bloginfo('template_directory'); ?>/img/logos_pie/unrlogo.png" alt="Universidad Nacional de Rosario" class="unr">
 				</a>
 		</div>
 	</div>
