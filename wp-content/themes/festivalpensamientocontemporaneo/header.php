@@ -43,7 +43,7 @@
 		</nav>
 	</div>
 	<div class="row mt-5 mb-5">
-		<div class="col-md-6">
+		<div class="offset-md-9 col-md-3">
 			<a href="<?php echo get_home_url(); ?>">
 				<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="Festival Pensamiento contemporaneo">
 			</a>

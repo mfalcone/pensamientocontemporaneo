@@ -1,9 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:400,500');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900');
 body{
-	font-family: Georgia,Times,Times New Roman,serif; 
+	font-family: 'Titillium Web', sans-serif; 
 }
 
+h1{
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 6rem;
+	padding-bottom: 3rem;
+}
 
-h1, h2, h3{
-	font-family: 'Oswald', sans-serif;
+h2{
+	font-weight:800;
+	font-size: 2.4rem;
+    letter-spacing: 0.15rem;
+    color:$azul;
+}
+
+h3{
+	font-weight:700;
+    font-size: 2.2rem;
+}
+p{
+	text-align: justify;
+	font-size:1.4rem;
 }

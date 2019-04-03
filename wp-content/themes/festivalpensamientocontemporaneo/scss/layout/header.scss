@@ -1,20 +1,26 @@
 body.page-template-page-bases{
-	 @include linear-gradient(#FFFFFF, #FFE7E7);
+	background: #dacfce;
 }
 
 body.page-template-page-invitados{
-	@include linear-gradient(#f0f9ff 0, #c2cbc9 50%, #b5c8d3 100%);
 }
 
 body.page-template-page-formulario{
-	@include linear-gradient(#FFFFFF, #89b599);
 }
+
 .navbar{
 	margin-left: auto;
 
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
 	ul.navbar-nav{
 		li{
-			border-left:1px solid;
+			border-left:3px solid #000;
+
+			a{
+				color: #000;
+			}
 		}
 	}
 
@@ -25,4 +31,11 @@ body.page-template-page-formulario{
 .navbar-toggler{
 	margin-left: auto;
 }
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color:rgba(0,0,0,1);
+	&.active{
+		color:$nja;
+	}
 }
