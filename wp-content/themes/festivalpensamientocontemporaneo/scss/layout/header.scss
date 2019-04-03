@@ -39,3 +39,10 @@ body.page-template-page-formulario{
 		color:$nja;
 	}
 }
+
+@media screen and (max-width: 450px) {
+	.navbar ul.navbar-nav li{
+		border-left:none;
+		}
+	
+}
