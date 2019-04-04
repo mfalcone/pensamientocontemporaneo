@@ -46,6 +46,14 @@ hr{
     *{
         color:#dacfce;
     }
+
+    a{
+        color:#FFFFFF;
+        
+        &:hover{
+            color: #000;
+        }
+    }
 }
 
 @media screen and (max-width: 450px) {
