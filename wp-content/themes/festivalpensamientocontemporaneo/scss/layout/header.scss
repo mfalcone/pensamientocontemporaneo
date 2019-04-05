@@ -1,12 +1,11 @@
-body.page-template-page-bases{
-	background: #dacfce;
+body{
+	background: $rosagris;
+
+	&.page-template-page-festival{
+		background:$grismarron;
+	}
 }
 
-body.page-template-page-invitados{
-}
-
-body.page-template-page-formulario{
-}
 
 .navbar{
 	margin-left: auto;
@@ -45,4 +44,17 @@ body.page-template-page-formulario{
 		border-left:none;
 		}
 	
+}
+
+
+h1{
+	.sec-pr{
+		color: $grismarron;
+		  text-shadow:
+		   -2px -2px 0 #000,  
+		    2px -2px 0 #000,
+		    -2px 2px 0 #000,
+		     2px 2px 0 #000;
+		letter-spacing: 6px;
+	}
 }
