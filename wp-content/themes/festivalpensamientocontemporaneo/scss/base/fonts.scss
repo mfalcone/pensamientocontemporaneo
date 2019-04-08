@@ -31,12 +31,23 @@ p{
 		font-size:3rem;
 	}
 
-
+	h2{
+		font-size:1.8rem;
+	}
+}
+@media screen and (max-width: 375px) {
+	h1{
+		font-size:2rem;
+	}
 }
 
 @media screen and (max-width: 450px) {
 
 	.mail{
 		word-break:break-all;
+	}
+
+	.page-el-festival h1{
+		font-size:2.4rem;
 	}
 }

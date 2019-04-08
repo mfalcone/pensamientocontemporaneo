@@ -14,11 +14,14 @@ get_header();?>
 						<h1>Pensamiento contemporaneo, <br><span class="sec-pr">un festival anfibio</span></h1>
 					</div>
 					<div class="row">
-						<?php the_content(); ?>
+						<div class="col-md-12">
+							<?php the_content(); ?>
+						</div>
+						<div class="col-md-12" style="margin-bottom:-100px;margin-top:200px">
+							<img src="<?php echo get_template_directory_uri() ?>/img/img_elfestival.png" alt="el festival"> 
+						</div>
 					</div>
-					<div class="row" style="margin-bottom:-100px;margin-top:200px">
-						<img src="<?php echo get_template_directory_uri() ?>/img/img_elfestival.png" alt="el festival"> 
-					</div>
+					
 		<?php endwhile;?>
 
 	<?php else :?>

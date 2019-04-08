@@ -55,11 +55,25 @@ body{
 		color:$nja;
 	}
 }
+@media screen and (max-width: 1199px){
+	.navbar{
+		font-size:1.55rem;
+	}
+}
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 991px){
+	.navbar{
+		font-size:1rem;
+	}
+}
+
+@media screen and (max-width: 767px) {
 	.navbar ul.navbar-nav li{
 		border-left:none;
 		}
+	.navbar{
+		font-size:2rem;
+	}
 	
 }
 
