@@ -17,3 +17,11 @@ add_action( 'wp_enqueue_scripts', 'estilosyjs' );
 
 add_theme_support( 'post-thumbnails' );
 add_image_size( 'autores', 300, 300, true );
+
+
+// Filter except length to 35 words.
+// tn custom excerpt length
+function tn_custom_excerpt_length( $length ) {
+return 35;
+}
+add_filter( 'excerpt_length', 'tn_custom_excerpt_length', 999 );

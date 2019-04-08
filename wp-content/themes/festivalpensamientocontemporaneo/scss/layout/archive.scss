@@ -1,14 +1,36 @@
+.page-template-page-invitados{
+	background-color: #fff8e6;
+	.content{
+		.col-md-6{
+			.cont-wrap{
+				border-bottom: 2px solid #000;
+			    overflow: hidden;
+			    min-height: 350px;
+			    margin-bottom: 40px;
+			    position: relative;
+			    padding-bottom: 50px;
 
-.clipped-img{
-	max-width: unset;
-    max-height: 313px;
-}
+			    p{
+			    	text-align: left;
+			    }
 
-.img-wrap{
-	width: 256px;
-	position: relative;
+			    a{
+			    	position: absolute;
+			    	right:0;
+			    	bottom:20px;
+			    	float: right;
+					font-size: 1.5rem;
+					color: $nja;
+					text-transform: uppercase;
+    				font-weight: 700;
+    				
+			    }
 
-	.bordersvg{
-		position: absolute;top:1px;right: 1px
+			    div{
+			    	padding-left:10px;
+			    	border-left:1px dashed #000;
+			    }
+			}
+		}
 	}
 }

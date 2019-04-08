@@ -26,11 +26,15 @@ p{
 	font-size:1.4rem;
 }
 
+@media screen and (max-width: 767px) {
+	h1{
+		font-size:3rem;
+	}
+
+
+}
 
 @media screen and (max-width: 450px) {
-	h1{
-		font-size:5rem;
-	}
 
 	.mail{
 		word-break:break-all;
