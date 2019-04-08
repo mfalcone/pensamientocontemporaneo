@@ -1,5 +1,5 @@
 .page-template-page-invitados{
-	background-color: #fff8e6;
+	
 	.content{
 		.col-md-6{
 			.cont-wrap{
@@ -33,4 +33,47 @@
 			}
 		}
 	}
+}
+
+.page-programacion{
+
+	h2,h3,h5{
+		width: 100%;
+		}
+
+	h3{
+		font-size: 3.5rem;
+		text-transform: uppercase;
+	}
+	h5{
+		font-weight: 800;
+	    font-size: 1.6rem;
+	    color:$nja;
+	}
+
+	.content a{
+		color:#000;
+	}
+	.actividad{
+		width:100%;
+		padding-left:4%;
+		border-left: 1px dashed;
+	    margin-bottom: 50px;
+    	font-size: 1.4rem;
+	    p{
+	    	margin:0;
+	    }
+	    ol{
+			list-style: decimal;
+			margin-left: 20px;
+	    }
+	    
+	    figcaption{
+	    	font-size: 1rem;
+    		text-align: center;
+	    }
+	    
+	    
+	}
+
 }

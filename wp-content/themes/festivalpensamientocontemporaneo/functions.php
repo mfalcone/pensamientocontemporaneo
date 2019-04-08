@@ -25,3 +25,14 @@ function tn_custom_excerpt_length( $length ) {
 return 35;
 }
 add_filter( 'excerpt_length', 'tn_custom_excerpt_length', 999 );
+
+
+//Page Slug Body Class
+function add_slug_body_class( $classes ) {
+	global $post;
+	if ( isset( $post ) ) {
+		$classes[] = $post->post_type . '-' . $post->post_name;
+	}
+	return $classes;
+}
+add_filter( 'body_class', 'add_slug_body_class' );

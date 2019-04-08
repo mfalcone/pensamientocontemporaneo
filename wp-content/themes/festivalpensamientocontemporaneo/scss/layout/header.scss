@@ -4,13 +4,30 @@ body{
 	&.page-template-page-festival{
 		background:$grismarron;
 	}
+
+	&.page-performance{
+		background-color: #efeed8;
+		
+		.content img{
+			border:1px solid;
+			margin-bottom: 40px;
+		}
+	}
+
+	&.page-programacion{
+		background:#ececec;
+	}
+
+	&.page-template-page-invitados{
+		background-color: #fff8e6;
+	}
 }
 
 
 .navbar{
 	margin-left: auto;
 	text-transform: uppercase;
-    font-size: 2.3rem;
+    font-size: 1.97rem;
     font-weight: 800;
     letter-spacing: 0.1rem;
 	ul.navbar-nav{
