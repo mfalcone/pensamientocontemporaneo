@@ -7,17 +7,24 @@
 <footer class="site-footer pt-5 pb-5">
 	<div class="container">
 		<div class="row main-logos">
-			<div class="col-md-6">
+			<div class="col-md-4">
 				<div class="text-center">
-					<a href="https://www.santafe.gov.ar/" target="_blank">
-						<img src="<?php bloginfo('template_directory'); ?>/img/logos_pie/logostafe.png" alt="Gobierno de Santa Fe" class="gobierno">
+					<a href="<?php echo get_home_url(); ?>" target="_blank">
+						<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="Festival Pensamiento Contemporaneo" class="psm">
 					</a>
+				</div>
 			</div>
-			</div>
-			<div class="col-md-6">
+			<div class="col-md-4">
 				<div class="text-center">
 					<a href="http://cfi.org.ar" target="_blank">
 						<img src="<?php bloginfo('template_directory'); ?>/img/logos_pie/logocfi.png" alt="Consejo Federal de Inversiones" class="cfi">
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="text-center">
+					<a href="https://www.santafe.gov.ar/" target="_blank">
+						<img src="<?php bloginfo('template_directory'); ?>/img/logos_pie/logostafe.png" alt="Gobierno de Santa Fe" class="gobierno">
 					</a>
 				</div>
 			</div>

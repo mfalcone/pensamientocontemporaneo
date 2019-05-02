@@ -10,10 +10,15 @@ get_header();?>
 	<?php if ( have_posts() ) : ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
-					<div class="col-md-12 pl-0">
-						<h1>Pensamiento contemporaneo, <br><span class="sec-pr">un festival anfibio</span></h1>
+					<div class="row mb-4">
+						<div class="col-md-12">
+							<img src="<?php bloginfo('template_directory'); ?>/img/cabecera-festival-pensamiento.jpg" alt="Festival Pensamiento Contemporaneo" class="img-fluid" />
+						</div>
 					</div>
 					<div class="row">
+						<div class="col-md-12 pb-5 text-center">
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSc8CzF1IuP5v4ll8IjhQFbMyed0u_mLxwLuc9S-Tit7-U50DA/viewform?usp=send_form" target="_blank" class="reserva-tu-lugar">RESERVÁ TU LUGAR</a>
+						</div>
 						<div class="col-md-12">
 							<?php the_content(); ?>
 						</div>
