@@ -56,6 +56,17 @@ hr{
     }
 }
 
+.lista-mapas{
+    background:#efe6e5;
+    p{
+        font-weight: 300;
+
+        strong{
+            font-weight: 600;
+        }
+    }
+}
+
 @media screen and (max-width: 450px) {
     .dos-columnas{
         column-count: unset;
