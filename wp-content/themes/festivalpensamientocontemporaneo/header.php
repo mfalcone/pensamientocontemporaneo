@@ -59,7 +59,14 @@
 		</nav>
 	</div>
 	<div class="row mt-5 mb-5">
-		<div class="offset-md-9 col-md-3">
+		<div class="col-md-9">
+			<ul class="list-inline social">
+				<li class="list-inline-item"><a href="https://www.facebook.com/ciclocontemporaneo/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li class="list-inline-item"><a href="https://www.instagram.com/p_contemporaneo/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+				<li class="list-inline-item"><a href="https://twitter.com/pcontemporaneo_" target="_blank"><i class="fa fa-twitter"></i></a></li>
+			</ul>
+		</div>
+		<div class="col-md-3">
 			<a href="<?php echo get_home_url(); ?>">
 				<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="Festival Pensamiento contemporaneo">
 			</a>

@@ -23,11 +23,31 @@ body{
 	}
 }
 
+ul.social{
+	margin-bottom: 0;
+    margin-top: 2rem;
+	li{
+		a{
+			color: #FFF;
+			background:#000;
+			border-radius:20px;
+			border-radius: 30px;
+		    width: 36px;
+		    display: inline-block;
+		    font-size: 1.5rem;
+		    text-align: center;
+
+		    &:hover{
+		    	background: $azul;
+		    }
+		}
+	}
+}
 
 .navbar{
 	margin-left: auto;
 	text-transform: uppercase;
-    font-size: 1.89rem;
+    font-size: 1.37rem;
     font-weight: 800;
     letter-spacing: 0.1rem;
 	ul.navbar-nav{
@@ -57,13 +77,13 @@ body{
 }
 @media screen and (max-width: 1199px){
 	.navbar{
-		font-size:1.55rem;
+		font-size:1.09rem;
 	}
 }
 
 @media screen and (max-width: 991px){
 	.navbar{
-		font-size:1rem;
+		font-size:0.71rem;
 	}
 }
 
@@ -98,5 +118,15 @@ h1{
 		    -2px 2px 0 #000,
 		     2px 2px 0 #000;
 		letter-spacing: 6px;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	ul.social{
+		width: 175px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	transform: scale(0.7);
 	}
 }

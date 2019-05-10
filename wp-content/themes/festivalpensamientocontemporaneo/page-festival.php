@@ -12,7 +12,10 @@ get_header();?>
 		<?php while ( have_posts() ) : the_post(); ?>
 					<div class="row mb-4">
 						<div class="col-md-12">
-							<img src="<?php bloginfo('template_directory'); ?>/img/cabecera-festival-pensamiento.jpg" alt="Festival Pensamiento Contemporaneo" class="img-fluid" />
+							<video style="max-width: 100%" autoplay>
+							  <source src="<?php echo content_url(); ?>/uploads/2019/festival-video.mp4" type="video/mp4">
+							  Your browser does not support the video tag.
+							</video>
 						</div>
 					</div>
 					<div class="row">
