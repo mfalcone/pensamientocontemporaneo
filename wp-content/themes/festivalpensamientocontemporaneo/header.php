@@ -30,6 +30,8 @@
   src="https://www.facebook.com/tr?id=1898530543553293&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
+<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+
 </head>
 
 <body <?php body_class(); ?>>

@@ -8,6 +8,7 @@ function estilosyjs()  {
 	wp_enqueue_style('style.css', get_stylesheet_directory_uri() . '/style.css');
 	wp_enqueue_script('jquery');
 	wp_enqueue_script( 'bootstrap-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js', array('jquery'), '3.3.4', true );
+	wp_enqueue_script( 'videojs', 'https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js', array('jquery'), '3.3.4', true );
 	wp_enqueue_script( 'theme-js', get_template_directory_uri() . '/js/theme.js', array( 'jquery' ), 1.0, false );
 	
 	
